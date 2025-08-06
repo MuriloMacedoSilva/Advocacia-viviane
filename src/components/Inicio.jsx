@@ -7,7 +7,7 @@ function Inicio() {
         <section className=" w-screen flex flex-col py-[20px] px-[20px]">
             <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-1]" />
             <div className="leading-[90px] text-amber-200">
-                <h1 className="text-[90px] font-Italiana bg-gradient-to-r from-orange-300 to-amber-200 text-shadow-2xs bg-clip-text text-transparent">Viviane <br /> Luiz <br /> Macedo</h1>
+                <h1 className={"text-[90px] font-Italiana bg-gradient-to-r from-orange-300 to-amber-200 text-shadow-2xs bg-clip-text text-transparent"}>Viviane <br /> Luiz <br /> Macedo</h1>
             </div>
             <div>
                 <h2 className="bg-gradient-to-r from-amber-200 to-orange-400 text-shadow-2xs bg-clip-text text-transparent text-[30px] tracking-[9px] font-Instrument">ADVOCACIA</h2>
