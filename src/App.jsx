@@ -9,8 +9,6 @@ import Avaliation from './components/Avaliation.jsx'
 function App() {
   return (
     <div className='overflow-x-hidden'>
-      <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-2] md:opacity-0" />
-            <img src={backgroundInicio} alt="fundo prédios" className="absolute top-0 w-screen md:h-full xl:h-auto left-0 z-[-2] md:opacity-100 opacity-0" />
       < Header />
       < Inicio />
       < Avaliation />
