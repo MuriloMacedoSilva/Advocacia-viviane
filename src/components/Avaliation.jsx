@@ -46,7 +46,7 @@ function Avaliation() {
 
   return (
     <section className=" w-screen px-[50px] m-auto mt-[30px] bg-white items-center justify-center">
-      <h2 className='w-[600px] m-auto flex items-center justify-center text-[25px] md:text-[50px] text-blue-950 border-b border-b-orange-900 font-Inter font-medium'>O que os clientes dizem?</h2>
+      <h2 className='md:w-[600px] w-[90%] m-auto flex items-center justify-center text-[25px] md:text-[50px] text-blue-950 border-b border-b-orange-900 font-Inter font-medium'>O que os clientes dizem?</h2>
       
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
