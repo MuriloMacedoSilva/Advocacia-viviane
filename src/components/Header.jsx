@@ -35,16 +35,16 @@ function Header() {
                     <a href="https://wa.me/+5511996669191" target="_blank" className="text-white font-Inter font-extralight md:pr-[25px] md:border-r-white md:border-r text-[12px] md:text-[18px]">+55 11 99666-9191</a>
                 </div>
                 <div className="lg:flex items-center justify-center gap-3.5 mx-[8px] hidden">
-                    <a href="">
+                    <a href="" target="_blank">
                         <img src={emailLogo} alt="botão para o email" className="w-[33px]" />
                     </a>
-                    <a href="">
+                    <a href="https://wa.me/+5511996669191" target="_blank">
                         <img src={wathsappLogo} alt="botão para o whatsapp" className="w-[33px]" />
                     </a>
-                    <a href="">
+                    <a href="" target="_blank">
                         <img src={linkedinLogo} alt="botão para o linkedin" className="w-[33px]" />
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/dra.v_luizmacedoadvogada/" target="_blank">
                         <img src={instagranLogo} alt="botão para o instagram" className="w-[33px]" />
                     </a>
                 </div>
