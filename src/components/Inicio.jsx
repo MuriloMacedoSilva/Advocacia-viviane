@@ -13,7 +13,7 @@ function Inicio() {
                 <p className="text-amber-200 text-[17px] lg:text-[22px] w-full mt-[20px] mb-[25px] font-Inika">Compliance estratégico e jurídico para mitigar riscos e impulsionar governança.</p>
                 <p className="text-white w-full text-[16px] font-Inika lg:text-[20px]">Atuação especializada em Direito Empresarial focada na integridade corporativa, prevenção de riscos e conformidade regulatória.</p>
                 <div className="md:flex md:justify-between mt-[50px] gap-7 w-full">
-                    <a href="https://www.instagram.com/dra.v_luizmacedoadvogada/" target="_blank" className="w-full md:w-[50%] mt-[30px] bg-lime-300 flex items-center justify-center h-[60px] text-[15px] text-amber-950 font-light hover:bg-lime-200 hover:border hover:border-lime-300 transition duration-200">
+                    <a href="https://wa.me/+5511996669191" target="_blank" className="w-full md:w-[50%] mt-[30px] bg-lime-300 flex items-center justify-center h-[60px] text-[15px] text-amber-950 font-light hover:bg-lime-200 hover:border hover:border-lime-300 transition duration-200">
                         <p className="font-Inter">MARQUE UMA REUNIÃO</p>
                         <img src={logoZap} alt="imagem whatsapp" className="w-[30px]" />
                     </a>
