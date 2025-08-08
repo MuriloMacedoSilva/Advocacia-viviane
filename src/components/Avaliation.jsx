@@ -1,6 +1,6 @@
 function Avaliation() {
     return (
-        <section>
+        <section className="bg-white border h-[300px] w-screen">
 
         </section>
     )
