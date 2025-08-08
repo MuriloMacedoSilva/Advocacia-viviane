@@ -21,7 +21,7 @@ function Header() {
     })
 
     return (
-        <header id="Header" className={`fixed transition duration-500 z-5 top-0 w-screen px-[20px] xl:px-[30px] flex justify-between items-center ${scrolled ? 'bg-cyan-950/80 backdrop-blur-sm h-[80px]' : 'bg-transparent h-[100px]'}`}>
+        <header id="Header" className={`fixed transition duration-500 z-5 top-0 w-screen px-[20px] xl:px-[30px] flex justify-between items-center ${scrolled ? 'bg-cyan-950/80 backdrop-blur-md h-[80px]' : 'bg-transparent h-[100px]'}`}>
             <div className="">
                 <img src={menu} alt="menu" className="w-[27px] cursor-pointer" />
             </div>
