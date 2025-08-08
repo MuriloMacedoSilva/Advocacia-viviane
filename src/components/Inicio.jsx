@@ -4,7 +4,7 @@ import backgroundInicio from "../assets/backgroundInicio.png"
 
 function Inicio() {
     return (
-        <section id="Inicio" className="bg-transparent h-[120vh] mt-[100px] md:mt-0 left-0 w-screen flex flex-col pb-[30px] px-[20px] md:flex-row md:justify-center md:gap-15 md:items-center">
+        <section id="Inicio" className="bg-transparent md:h-[120vh] h-[160vh] mt-[100px] md:mt-0 left-0 w-screen flex flex-col pb-[30px] px-[20px] md:flex-row md:justify-center md:gap-15 md:items-center">
             <div className="text-amber-200">
                 <h1 className="text-[90px] font-Italiana bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-amber-200 text-shadow-lg bg-clip-text text-transparent md:text-[110px] md:leading-[100px] lg:text-[150px] leading-[90px] lg:leading-[130px] xl:leading-[150px] font-normal xl:text-[170px]">Viviane <br /> Luiz <br /> Macedo</h1>
             </div>
