@@ -1,4 +1,4 @@
-import vivianeFoto1 from "../assets/vivianeFoto1.png"
+
 import logoHead from "../assets/logoHead.png"
 
 function Sobre() {
