@@ -12,6 +12,8 @@
     --font-Instrument: "Instrument", "sans-serif";
     --font-Inika: "Inika", "serif";
     --font-Inter: "Inter", "sans-serif";
+    --color-mar: #253646;
+    --color-ceu: #5A84AC;
 }
 
 @import "tailwindcss";

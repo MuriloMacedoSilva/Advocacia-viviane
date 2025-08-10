@@ -1,6 +1,7 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState, useEffect} from "react"
+import backgroundAvaliation from "../assets/backgroundAvaliation.png"
 
 // Import Swiper styles
 import 'swiper/css';
@@ -45,23 +46,25 @@ function Avaliation() {
   ];
 
   return ( 
-    <section className=" md:mt-[-100px] w-screen md:px-[50px] m-auto mt-[30px] bg-white items-center justify-center mb-[300px]">
-      <h2 className='md:w-[600px] w-[90%] m-auto flex items-center justify-center md:pt-[10px] mb-[60px] pt-[100px] text-[30px] md:text-[50px] text-blue-950 border-b border-b-orange-900 font-Inter font-medium'>O que os clientes dizem?</h2>
+    <section className=" w-screen m-auto bg-gradient-to-b from-mar/90 to-black/90 backdrop-blur-sm  items-center justify-center pb-[20px] relative overflow-hidden top-0">
+      <h2 className='md:w-[400px] w-[90%] m-auto flex items-center justify-center md:pt-[50px] mb-[20px] pt-[100px] text-[36px] bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent  font-Inter font-medium'>O que os clientes dizem</h2>
       
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         slidesPerView={slidePerview}
         pagination={{ clickable: true }}
         navigation
-        className='w-full'
+        className='w-[85%] m-auto'
       >
         {data.map((item) => (
-          <SwiperSlide key={item.id}>
-            <img
+          <SwiperSlide key={item.id} className=''>
+            <div>
+              <img
               src={item.image}
               alt={`Slide ${item.id}`}
-              className="w-full p-[42px] object-cover"
+              className="w-full p-5 object-cover"
             />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
