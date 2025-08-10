@@ -1,24 +1,29 @@
-
+import VivianeFoto1 from "../assets/VivianeFoto1.png"
 import logoHead from "../assets/logoHead.png"
 
 function Sobre() {
     return (
-          <section className="w-screen flex items-center justify-end">
-            {/* <div className="bg-gradient-to-r from-mar to-ceu h-[530px] w-[1308px] flex">
-                <div className="h-full w-[370px] flex flex-col items-center justify-items-start border">
-                    <img src={vivianeFoto1} alt="foto da advogada viviane" className="w-full" />
-                </div>
-                <div className="w-[300px]">
-                    <h2>Viviane Luiz Macedo</h2>
-                    <h3>ADVOCACIA</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam asperiores neque, sint alias perferendis, blanditiis voluptatum maiores architecto saepe, harum commodi autem odit. Impedit in ut, cum ex suscipit vitae.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorem, tempora impedit perferendis sequi, placeat, quae nemo totam sint repellendus vitae maiores. Pariatur totam minima nisi, dolores provident quod ratione.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sint tempora voluptatum exercitationem qui? Voluptatum saepe magnam a modi, optio velit ipsum qui sunt, aspernatur perferendis consectetur tenetur quaerat nesciunt!</p>
-                    <a href="">Transforme seu negócio</a>
-                </div>
+          <section className="flex justify-end items-center bg-gradient-to-b from-mar/90 to-50% to-black pt-[70px] backdrop-blur-sm pb-[100px] px-1.5">
+            <div className="flex border md:flex-row flex-col md:m-0 m-auto border-amber-200 w-full md:gap-25 relative py-3.5 px-7">
                 <div>
-                    <img src={logoHead} alt="logo do escritório de advocacia" className="w-[30px]" />
+                    <img src={VivianeFoto1} alt="" className="min-w-[250px] w-[480px] md:m-0 m-auto" />
                 </div>
-            </div> */}
+                <div className="flex flex-col items-start max-w-[550px] px-2.5 gap-5">
+                    <h2 className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent font-Italiana text-[50px]">
+                        Viviane Luiz Macedo
+                    </h2>
+                    <h3 className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent font-Inter text-[28px] tracking-[7px] font-light">
+                        ADVOCACIA
+                    </h3>
+                    <p className="w-full text-white  font-Inter text-[15px] font-light">Fundado com a convicção de que a advocacia empresarial deve ir além das abordagens tradicionais, o escritório alia conhecimento jurídico sólido a uma <strong className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent">visão estratégica e inovadora</strong>. Sob a condução da advogada <strong className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent font-Italiana text-[21px]">Viviane Luiz Macedo</strong>, a atuação é pautada pela <strong className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent">excelência e pela personalização no atendimento a empresas e empreendedores</strong>.
+                        <br /> <br />
+                    Com forte atuação nas áreas de Direito <strong className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent">Empresarial, Contratual, Cível e Tributário</strong>, o escritório está em constante evolução para atender às novas demandas do mercado, incorporando a <strong className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent">tecnologia</strong> como pilar essencial para os negócios contemporâneos. Reconhecendo a importância da transformação digital, oferece soluções jurídicas alinhadas às necessidades de um cenário empresarial em constante mudança.</p>
+                    <a href="" className="bg-amber-200 p-5 cursor-pointer hover:bg-amber-100 transition duration-200 mt-6">TRANSFORME SEU NEGÓCIO</a>
+                </div>
+                <div className="h-[100%] top-0 flex right-0 absolute flex-col items-center justify-end">
+                    <img src={logoHead} alt="" className="max-w-[100px]" />
+                </div>
+            </div>
           </section>
     )
 }
