@@ -16,10 +16,10 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
 function Servicos() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 700);
+    const handleResize = () => setIsMobile(window.innerWidth < 1200);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -57,7 +57,7 @@ function Servicos() {
 
       <Swiper
         centeredSlides={true}
-        autoplay={{ delay: 4500, disableOnInteraction: false }}
+        autoplay={{ delay: 4000, disableOnInteraction: false }}
         direction="horizontal"
         slidesPerView={1}
         loop={true}
@@ -69,12 +69,12 @@ function Servicos() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.id} className="max-w-screen overflow-hidden overflow-x-hidden">
-            <div className="h-[500px] relative w-screen overflow-hidden">
-              <img src={item.image} alt={item.titulo} className="w-full h-full object-cover" />
-              <div className="absolute top-0 flex flex-col items-start gap-10 py-10 px-[60px] overflow-hidden bg-gradient-to-r from-orange-300 from-[0%] to-yellow-100 bg-clip-text text-transparent">
-                <h2 className="w-[80%] leading-[25px] text-[40px] md:text-[60px] tracking-tight font-Instrument font-light bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-100 bg-clip-text text-transparent">{item.titulo}</h2>
+            <div className="md:h-[480px] lg:h-[500px] h-[700px] relative w-screen overflow-hidden">
+              <img src={item.image} alt={item.titulo} className="w-screen object-cover" />
+              <div className="absolute top-0 flex flex-col md:h-[94%] h-[80%] items-start justify-around py-5 px-[60px] overflow-hidden bg-gradient-to-r from-orange-300 from-[0%] to-yellow-100 bg-clip-text text-transparent">
+                <h2 className="w-[80%] text-[38px] md:text-[60px] tracking-tight font-Instrument font-light bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-100 bg-clip-text text-transparent">{item.titulo}</h2>
                 <p className="text-white font-Inter font-extralight text-[14px] md:text-[16px] lg:text-[20px]">{item.line1} <br /> <br /> {item.line2} <br /> <br /> {item.line3} <br /> <br /> {item.line4} </p>
-                <a href="" className='border mt-4 flex items-center justify-center text-[15px] font-Inter w-[200px] border-amber-200 text-white p-3.5 font-light hover:bg-amber-200 hover:text-amber-900 transition duration-200'>SAIBA MAIS</a>
+                <a href="https://wa.me/+5511996669191" target="_blank" className='border mt-7 flex items-center justify-center text-[15px] font-Inter w-[200px] border-amber-200 text-white p-3.5 font-light hover:bg-amber-200 hover:text-amber-900 transition duration-200'>SAIBA MAIS</a>
               </div>
             </div>
           </SwiperSlide>

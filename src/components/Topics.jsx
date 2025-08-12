@@ -4,7 +4,7 @@ import olho from "../assets/olho.png"
 
 function Topics() {
     return (
-        <section className="bg-gradient-to-b from-black/90 to-mar/90  backdrop-blur-sm w-screen items-center justify-center gap-15 flex flex-col px-[30px] pt-[45px] pb-[60px]">
+        <section className="bg-gradient-to-b from-black/90 to-mar/90   w-screen items-center justify-center gap-15 flex flex-col px-[30px] pt-[45px] pb-[60px]">
             <h2 className="m-auto text-[36px] font-Inter font-medium bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent border-t border-amber-200/40 pt-8" >Aqui você encontra</h2>
             <div className="flex flex-col md:flex-row gap-1.5 items-baseline-last justify-center">
                 <div className="flex flex-col justify-items-start p-6  gap-3 max-w-[400px]">

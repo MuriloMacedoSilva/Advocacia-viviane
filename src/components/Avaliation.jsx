@@ -46,7 +46,7 @@ function Avaliation() {
   ];
 
   return ( 
-    <section className=" w-screen m-auto bg-gradient-to-b from-mar/90 to-black/90 backdrop-blur-sm  items-center justify-center pb-[20px] relative overflow-hidden top-0">
+    <section className=" w-screen m-auto bg-gradient-to-b from-black/90 to-mar backdrop-blur-sm  items-center justify-center pb-[20px] relative overflow-hidden top-0">
       <h2 className='md:w-[400px] w-[90%] m-auto flex items-center justify-center md:pt-[50px] mb-[20px] pt-[100px] text-[36px] bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent  font-Inter font-medium'>O que os clientes dizem</h2>
       
       <Swiper

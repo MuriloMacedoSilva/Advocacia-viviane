@@ -5,7 +5,7 @@ import backgroundInicioXL from "../assets/backgroundInicioXL.png"
 
 function Inicio() {
     return (
-        <section id="Inicio" className="bg-transparent md:py-[200px] xl:h-[100vh] mt-[100px] md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center">
+        <section id="Inicio" className="bg-transparent md:py-[350px] xl:h-[100vh] mt-[100px] scroll-smooth md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center">
             <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-2] md:hidden" />
             <img src={backgroundInicio} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] md:block hidden object-cover" />
             <img src={backgroundInicioXL} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] xl:block hidden object-cover" />
@@ -22,7 +22,7 @@ function Inicio() {
                         <img src={logoZap} alt="imagem whatsapp" className="w-[30px]" />
                     </a>
 
-                    <a href="" className="w-full md:w-[50%] mt-[30px] bg-transparent border border-amber-200 flex items-center justify-center h-[60px] text-[15px] text-amber-200 font-light hover:bg-amber-200/90 hover:text-amber-950 transition duration-200">
+                    <a href="https://drive.google.com/file/d/1XoO8A1yM0cWZCtKtdtj86oHj6Ijh19OJ/view?usp=sharing" target="_blank" className="w-full md:w-[50%] mt-[30px] bg-transparent border border-amber-200 flex items-center justify-center h-[60px] text-[15px] text-amber-200 font-light hover:bg-amber-200/90 hover:text-amber-950 transition duration-200">
                         <p className="font-Inter">HISTÓRICO</p>
                     </a>
                 </div>
