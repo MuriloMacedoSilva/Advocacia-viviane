@@ -64,7 +64,7 @@ function Avaliation() {
         className='w-[85%] m-auto mySwiper'
       >
         {data.map((item) => (
-          <SwiperSlide key={item.id} className='md:p-5 p-7'>
+          <SwiperSlide key={item.id} className='p-5'>
             <div className=''>
               <img
               src={item.image}
