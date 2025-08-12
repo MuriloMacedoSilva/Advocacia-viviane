@@ -22,7 +22,6 @@ function App() {
       < Topics />
       < Sobre />
       < Servicos />
-      < Avaliation />
       < Footer />
     </div>
   )
