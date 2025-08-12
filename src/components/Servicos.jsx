@@ -69,9 +69,9 @@ function Servicos() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.id} className="max-w-screen overflow-hidden overflow-x-hidden">
-            <div className="md:h-[480px] lg:h-[500px] h-[700px] relative w-screen overflow-hidden">
+            <div className="md:h-[480px] lg:h-[500px] h-[700px] relative w-screen overflow-hidden ">
               <img src={item.image} alt={item.titulo} className="w-screen object-cover" />
-              <div className="absolute top-0 flex flex-col md:h-[94%] h-[80%] items-start justify-around py-5 px-[60px] overflow-hidden bg-gradient-to-r from-orange-300 from-[0%] to-yellow-100 bg-clip-text text-transparent">
+              <div className="absolute top-0 flex flex-col  items-start justify-around px-[60px] pt-[40px] bg-gradient-to-r from-orange-300 from-[0%] to-yellow-100 bg-clip-text text-transparent">
                 <h2 className="w-[80%] text-[38px] md:text-[60px] tracking-tight font-Instrument font-light bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-100 bg-clip-text text-transparent">{item.titulo}</h2>
                 <p className="text-white font-Inter font-extralight text-[16px] md:text-[16px] lg:text-[20px]">{item.line1} <br /> <br /> {item.line2} <br /> <br /> {item.line3} <br /> <br /> {item.line4} </p>
                 <a href="https://wa.me/+5511996669191" target="_blank" className='border mt-7 flex items-center justify-center text-[15px] font-Inter w-[200px] border-amber-200 text-white p-3.5 font-light hover:bg-amber-200 hover:text-amber-900 transition duration-200'>SAIBA MAIS</a>
