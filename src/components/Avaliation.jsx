@@ -53,7 +53,6 @@ function Avaliation() {
       direction='horizontal'
         slidesPerView={slidePerview}
         pagination={{ clickable: true }}
-        navigation={true}
         loop={true}
         spaceBetween={0}
         autoplay={{

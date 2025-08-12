@@ -19,7 +19,7 @@ function Topics() {
                 </div>
                 <div className="flex flex-col justify-items-start p-6  gap-3 max-w-[400px]">
                     <img src={tech} alt="" className="w-[50px] h-[50px]" />
-                    <h2 className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent text-[29px] font-Inter w-full border-[23px]">Tecnologia</h2>
+                    <h2 className="bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent text-[29px] font-Inter w-full border-y-[24px]">Tecnologia</h2>
                     <p className="text-white text-[18px] w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis qui sint eveniet, quidem perferendis veritatis natus!</p>
                 </div>
             </div>
