@@ -1,12 +1,14 @@
 import backgroundMobile from "../assets/backgroundMobile.png"
 import logoZap from "../assets/logoZap.png"
 import backgroundInicio from "../assets/backgroundInicio.png"
+import backgroundInicioXL from "../assets/backgroundInicioXL.png"
 
 function Inicio() {
     return (
-        <section id="Inicio" className="bg-transparent md:py-[200px] xl:h-[100vh] mt-[100px] md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center overflow-hidden">
-            <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-2] md:opacity-0" />
-            <img src={backgroundInicio} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] md:opacity-100 opacity-0" />
+        <section id="Inicio" className="bg-transparent md:py-[200px] xl:h-[100vh] mt-[100px] md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center">
+            <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-2] md:hidden" />
+            <img src={backgroundInicio} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] md:block hidden object-cover" />
+            <img src={backgroundInicioXL} alt="fundo prédios" className="absolute top-0 left-0 z-[-2] xl:block hidden object-cover" />
             <div className="text-amber-200">
                 <h1 className="text-[90px] font-Italiana bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent md:text-[110px] md:leading-[100px] lg:text-[150px] leading-[90px] lg:leading-[130px] xl:leading-[150px] font-normal xl:text-[170px]">Viviane <br /> Luiz <br /> Macedo</h1>
             </div>

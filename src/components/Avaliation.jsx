@@ -1,7 +1,7 @@
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState, useEffect} from "react"
-import backgroundAvaliation from "../assets/backgroundAvaliation.png"
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -50,19 +50,26 @@ function Avaliation() {
       <h2 className='md:w-[400px] w-[90%] m-auto flex items-center justify-center md:pt-[50px] mb-[20px] pt-[100px] text-[36px] bg-gradient-to-r from-orange-300 from-[0%] to-[80%] to-yellow-200 bg-clip-text text-transparent  font-Inter font-medium'>O que os clientes dizem</h2>
       
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+      direction='horizontal'
         slidesPerView={slidePerview}
         pagination={{ clickable: true }}
-        navigation
-        className='w-[85%] m-auto'
+        navigation={true}
+        loop={true}
+        spaceBetween={0}
+        autoplay={{
+          delay: 2600,
+          disableOnInteraction: false,
+        }}
+        modules={[Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay]}
+        className='w-[85%] m-auto mySwiper'
       >
         {data.map((item) => (
-          <SwiperSlide key={item.id} className=''>
-            <div>
+          <SwiperSlide key={item.id} className='md:p-5 p-7'>
+            <div className=''>
               <img
               src={item.image}
               alt={`Slide ${item.id}`}
-              className="w-full p-5 object-cover"
+              className="w-full object-cover"
             />
             </div>
           </SwiperSlide>
