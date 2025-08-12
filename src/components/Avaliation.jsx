@@ -60,10 +60,10 @@ function Avaliation() {
           disableOnInteraction: false,
         }}
         modules={[Navigation, Pagination, Scrollbar, A11y, Mousewheel, Autoplay]}
-        className='w-[85%] m-auto mySwiper'
+        className='w-[90%] m-auto mySwiper'
       >
         {data.map((item) => (
-          <SwiperSlide key={item.id} className='p-5'>
+          <SwiperSlide key={item.id} className='p-1'>
             <div className=''>
               <img
               src={item.image}

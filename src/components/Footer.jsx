@@ -51,7 +51,7 @@ export default function Footer() {
         href="https://wa.me/5511996669191"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed z-[1000] bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg hover:bg-green-600 transition hidden lg:block"
+        className="fixed z-[1000] bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg hover:bg-green-600 transition"
       >
         <FaWhatsapp size={24} className="text-white" />
       </a>
