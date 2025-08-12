@@ -21,7 +21,7 @@ export default function Footer() {
             <a href="https://www.instagram.com/dra.v_luizmacedoadvogada/" target="_blank" className="bg-white text-[#6B2B2B] p-2 rounded-full hover:bg-gray-200 transition">
               <FaInstagram size={18} />
             </a>
-            <a href="#" className="bg-white text-[#6B2B2B] p-2 rounded-full hover:bg-gray-200 transition">
+            <a href="https://www.linkedin.com/in/viviane-luiz-macedobr/" target="_blank" className="bg-white text-[#6B2B2B] p-2 rounded-full hover:bg-gray-200 transition">
               <FaLinkedinIn size={18} />
             </a>
           </div>
