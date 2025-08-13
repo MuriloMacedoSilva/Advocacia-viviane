@@ -57,7 +57,7 @@ function Inicio() {
     return (
         <section
             id="Inicio"
-            className="bg-transparent md:py-[350px] xl:h-[100vh] scroll-smooth md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center"
+            className="bg-transparent py-[100px] md:py-[200px] lg:py-[200px] xl:py-[350px] xl:h-[100vh] scroll-smooth md:mt-0 left-0 w-screen flex flex-col pb-[100px] px-[20px] md:flex-row md:justify-center md:gap-10 md:items-center"
         >
             {/* Fundo */}
             <img src={backgroundMobile} alt="fundo imagem de prédios" className="absolute top-0 w-screen left-0 z-[-2] md:hidden" />
