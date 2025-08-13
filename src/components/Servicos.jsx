@@ -63,7 +63,6 @@ function Servicos() {
         loop={true}
         spaceBetween={30}
         pagination={{ clickable: true }}
-        navigation={true}
         modules={[Mousewheel, Pagination, Autoplay, Navigation, A11y]}
         className="mySwiper w-screen m-auto"
       >
