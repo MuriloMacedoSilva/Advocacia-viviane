@@ -57,13 +57,13 @@ function Servicos() {
 
       <Swiper
         centeredSlides={true}
-        autoplay={{ delay: 8500, disableOnInteraction: false }}
+        autoplay={{ delay: 10000, disableOnInteraction: false }}
         direction="horizontal"
         slidesPerView={1}
         loop={true}
         spaceBetween={30}
         pagination={{ clickable: true }}
-        mousewheel={true}
+        navigation={true}
         modules={[Mousewheel, Pagination, Autoplay, Navigation, A11y]}
         className="mySwiper w-screen m-auto"
       >
