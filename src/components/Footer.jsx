@@ -3,7 +3,7 @@ import logoHead from "../assets/logoHead.png"
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-black to-mar border-t border-amber-200 text-white py-10 relative">
+    <footer className="bg-gradient-to-b from-black to-mar border-t border-amber-200 text-white py-10 relative bottom-0">
       <div className="container mx-auto px-2.5 lg:px-20 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
 
         {/* Logo e endereço */}

@@ -16,7 +16,7 @@ function App() {
     <div className='overflow-x-hidden overflow-y-hidden bg-transparent scroll-smooth'>
       < Header />
       < Inicio />
-      <img src={background2} alt="" className='z-[-1] absolute w-screen hidden lg:block' />
+      <img src={background2} alt="" className='z-[-1] max-h-[1900px] absolute w-screen hidden lg:block' />
       <img src={background2_mobile} alt="" className='z-[-1] absolute h-[2200px] w-screen block lg:hidden' />
       < Frase />
       < Topics />
