@@ -1,9 +1,5 @@
 import logoHead from "../assets/logoHead.png"
 import { useEffect, useState } from "react";
-import emailLogo from "../assets/emailLogo.png"
-import instagranLogo from "../assets/instagranLogo.png"
-import linkedinLogo from "../assets/linkedinLogo.png"
-import wathsappLogo from "../assets/wathsappLogo.png"
 
 function Header() {
 
