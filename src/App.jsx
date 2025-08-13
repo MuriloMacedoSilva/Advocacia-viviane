@@ -17,7 +17,7 @@ function App() {
       < Header />
       < Inicio />
       <img src={background2} alt="" className='z-[-1] max-h-[1900px] absolute w-screen hidden lg:block' />
-      <img src={background2_mobile} alt="" className='z-[-1] absolute h-[2200px] w-screen block lg:hidden' />
+      <img src={background2_mobile} alt="" className='z-[-1] absolute h-[2350px] w-screen block lg:hidden' />
       < Frase />
       < Topics />
       < Sobre />
