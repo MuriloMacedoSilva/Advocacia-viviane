@@ -14,7 +14,7 @@ export default function Footer() {
             className="w-[150px] mb-4"
           />
           <p className="max-w-xs">
-            Rua Apito do Vapor, 963 – Pinamonhangaba, sp/sp, 80500-000.
+            São Paulo - SP
           </p>
 
           <div className="flex gap-4 mt-4">
@@ -35,9 +35,9 @@ export default function Footer() {
             <FaWhatsapp /> (11) 99666-9191
           </p>
           </a>
-          <a href="">
+          <a href="www.vivianemacedoadv@adv.oabsp.org.br">
             <p className="flex items-center justify-center gap-2 font-Inter text-[18px] font-light">
-            <FaEnvelope />viviane@email.com
+            <FaEnvelope /> vivianemacedoadv@adv.oabsp.org.br
           </p>
           </a>
         </div>

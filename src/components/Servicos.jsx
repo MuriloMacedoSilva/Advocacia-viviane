@@ -57,7 +57,7 @@ function Servicos() {
 
       <Swiper
         centeredSlides={true}
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
+        autoplay={{ delay: 5500, disableOnInteraction: false }}
         direction="horizontal"
         slidesPerView={1}
         loop={true}
