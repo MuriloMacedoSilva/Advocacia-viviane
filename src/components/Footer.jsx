@@ -35,7 +35,7 @@ export default function Footer() {
             <FaWhatsapp /> (11) 99666-9191
           </p>
           </a>
-          <a href="www.vivianemacedoadv@adv.oabsp.org.br">
+          <a href="mailto:vivianemacedoadv@adv.oabsp.org.br">
             <p className="flex items-center justify-center gap-2 font-Inter text-[18px] font-light">
             <FaEnvelope /> vivianemacedoadv@adv.oabsp.org.br
           </p>

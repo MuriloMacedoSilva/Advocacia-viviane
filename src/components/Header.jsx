@@ -28,7 +28,7 @@ function Header() {
             <div className="flex flex-row-reverse justify-between w-full items-center gap-3">
                 <div className=" flex flex-col items-end md:flex-row-reverse">
                     <a href="https://www.instagram.com/dra.v_luizmacedoadvogada/" target="_blank" className="text-white font-Inter font-extralight md:pl-[25px] text-[12px] md:text-[18px]">@dra.v_luizmacedoadvogada</a>
-                    <a href="https://wa.me/+5511996669191" target="_blank" className="text-white font-Inter font-extralight md:pr-[25px] md:border-r-white md:border-r text-[12px] md:text-[18px]">+55 11 99666-9191</a>
+                    <a href="https://www.linkedin.com/in/viviane-luiz-macedobr/" target="_blank" className="text-white font-Inter font-extralight md:pr-[25px] md:border-r-white md:border-r text-[12px] md:text-[18px]">linkedin.com/in/viviane-luiz-macedobr</a>
                 </div>
                 <a href="#Inicio">
                     <img src={logoHead} alt="logo" className={` transition duration-1000 ${scrolled ? 'w-[50px] h-[50px]' : 'w-[50px] h-[50px]'}`} />
