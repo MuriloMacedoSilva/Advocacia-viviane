@@ -17,12 +17,21 @@ import "swiper/css/scrollbar";
 
 function Servicos() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+  const [responseArrow, setResponseArrow] = useState(false)
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 1200);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
+
   }, []);
+
+  useEffect(() => {
+    const showArrow = () => setResponseArrow(true)
+    if (window.innerWidth > 1200){
+      return showArrow()
+    }
+  })
 
   const data = [
     {
@@ -61,6 +70,7 @@ function Servicos() {
         direction="horizontal"
         slidesPerView={1}
         loop={true}
+        navigation={responseArrow}
         spaceBetween={30}
         pagination={{ clickable: true }}
         modules={[Mousewheel, Pagination, Autoplay, Navigation, A11y]}
