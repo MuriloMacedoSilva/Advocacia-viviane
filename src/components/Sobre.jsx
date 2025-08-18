@@ -3,7 +3,7 @@ import logoHead from "../assets/logoHead.png"
 
 function Sobre() {
     return (
-          <section className="flex flex-col lg:flex-row justify-end items-center bg-gradient-to-b from-mar/90 to-50% to-black pt-[70px]  pb-[50px] px-1.5">
+          <section className="flex flex-col lg:flex-row justify-end items-center bg-gradient-to-b md:from-mar/80 to-50% md:to-black/80 from-mar/90 to-black pt-[70px]  pb-[50px] px-1.5">
             <div className="flex border lg:flex-row flex-col md:m-0 m-auto border-amber-200 w-full md:gap-25 relative py-3.5 px-7">
                 <div>
                     <img src={VivianeFoto1} alt="" className="min-w-[250px] w-[480px] md:m-0 m-auto" />

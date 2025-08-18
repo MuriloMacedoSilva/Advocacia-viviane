@@ -50,7 +50,7 @@ function Servicos() {
   ];
 
   return (
-    <section className="flex flex-col items-center relative w-screen border gap-8 bg-gradient-to-b from-black to-mar overflow-hidden">
+    <section className="flex flex-col items-center relative w-screen gap-8 bg-gradient-to-b from-black md:from-black/80 to-mar overflow-hidden">
       <h2 className="text-center mt-auto font-inter bg-gradient-to-r from-orange-300 from-[0%] to-yellow-200 bg-clip-text text-transparent text-[35px]">
         Serviços
       </h2>

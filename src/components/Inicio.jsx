@@ -84,10 +84,10 @@ function Inicio() {
                 transition={{ duration: 1.2, delay: 1 }}
             >
                 <h2 className="bg-gradient-to-r from-amber-200 to-orange-400 bg-clip-text text-transparent text-[20px] tracking-[15px] font-Inter font-medium lg:text-[35px]">ADVOCACIA</h2>
-                <p className="text-amber-200 text-[17px] lg:text-[22px] w-full mt-[20px] mb-[25px] font-Inika">
+                <p className="text-amber-200 text-[17px] lg:text-[22px] w-full mt-[20px] mb-[25px] font-Inter font-extralight">
                     Compliance estratégico e jurídico para mitigar riscos e impulsionar governança.
                 </p>
-                <p className="text-white w-full text-[16px] font-Inika lg:text-[20px]">
+                <p className="text-white w-full text-[16px] font-Inter font-extralight lg:text-[20px]">
                     Atuação especializada em Direito Empresarial focada na integridade corporativa, prevenção de riscos e conformidade regulatória.
                 </p>
                 <div className="md:flex md:justify-between mt-[50px] gap-7 w-full">
