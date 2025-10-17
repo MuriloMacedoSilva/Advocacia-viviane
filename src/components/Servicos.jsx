@@ -14,6 +14,7 @@ import tributarioMobile from "../assets/tributario-mobile.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
+import { styleEffect } from "framer-motion";
 
 function Servicos() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
@@ -70,7 +71,9 @@ function Servicos() {
         direction="horizontal"
         slidesPerView={1}
         loop={true}
-        navigation={responseArrow}
+        navigation={{
+          responseArrow
+        }}
         spaceBetween={30}
         pagination={{ clickable: true }}
         modules={[Mousewheel, Pagination, Autoplay, Navigation, A11y]}
