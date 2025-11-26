@@ -13,7 +13,7 @@ import background2_mobile from "./assets/background2_mobile.png"
 
 function App() {
   return (
-    <div className='overflow-x-hidden overflow-y-hidden bg-transparent scroll-smooth'>
+    <div className='overflow-x-hidden overflow-y-hidden scroll-smooth bg-transparent'>
       < Header />
       < Inicio />
       <img src={background2} alt="" className='z-[-1] max-h-[2250px] absolute w-screen hidden lg:block' />
