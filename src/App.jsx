@@ -20,6 +20,7 @@ function App() {
       <img src={background2_mobile} alt="" className='z-[-1] absolute h-[2350px] w-screen block lg:hidden' />
       < Frase />
       < Topics />
+      <Avaliation/>
       < Sobre />
       < Servicos />
       < Footer />
