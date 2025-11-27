@@ -261,10 +261,6 @@ function Avaliation() {
                 )}
                 
             </Swiper>
-            
-            <div className='w-screen flex justify-center items-center h-[100px]'>
-                <Link to="/formAvaliation" className='bg-transparent border border-amber-200 flex items-center justify-center h-[60px] text-[15px] text-amber-200 font-light hover:bg-amber-200/90 hover:text-amber-950 transition duration-200 px-6 mt-6'>Fazer Avaliação</Link>
-            </div>
         </section>
     );
 }
