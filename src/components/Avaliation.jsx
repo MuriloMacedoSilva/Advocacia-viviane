@@ -261,6 +261,7 @@ function Avaliation() {
                 )}
                 
             </Swiper>
+            <Link to="/formAvaliation" className='hidden'></Link>
         </section>
     );
 }
