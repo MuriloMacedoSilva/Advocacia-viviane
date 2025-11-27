@@ -178,52 +178,56 @@ function Avaliation() {
     }, [])
     
     // --- LÓGICA DE BUSCA DE DADOS ---
-    useEffect(() => {
-        const fetchAvaliations = async () => {
-            setIsLoading(true);
-            setError(null);
-            try {
-                const response = await fetch(API_ENDPOINT, { method: 'GET' });
+    // useEffect(() => {
+    //     const fetchAvaliations = async () => {
+    //         setIsLoading(true);
+    //         setError(null);
+    //         try {
+    //             const response = await fetch(API_ENDPOINT, { method: 'GET' });
 
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`Falha ao buscar avaliações. Status: ${response.status}. Detalhe: ${errorText}`);
-                }
+    //             if (!response.ok) {
+    //                 const errorText = await response.text();
+    //                 throw new Error(`Falha ao buscar avaliações. Status: ${response.status}. Detalhe: ${errorText}`);
+    //             }
 
-                const data = await response.json();
-                setAvaliacoes(data); // Define o array de avaliações
-            } catch (err) {
-                console.error('Erro ao buscar avaliações:', err);
-                setError('Não foi possível carregar as avaliações. Verifique o console ou a API.');
-            } finally {
-                setIsLoading(false);
-            }
-        };
+    //             const data = await response.json();
+    //             setAvaliacoes(data); // Define o array de avaliações
+    //         } catch (err) {
+    //             console.error('Erro ao buscar avaliações:', err);
+    //             setError('Não foi possível carregar as avaliações. Verifique o console ou a API.');
+    //         } finally {
+    //             setIsLoading(false);
+    //         }
+    //     };
 
-        fetchAvaliations();
-    }, []); 
+    //     fetchAvaliations();
+    // }, []); 
     // --- FIM LÓGICA DE BUSCA DE DADOS ---
 
 
     // Se estiver carregando
-    if (isLoading) {
-        return (
-            <section className="w-screen m-auto py-20 bg-black flex flex-col items-center justify-center">
-                 <Loader2 className="animate-spin inline-block text-yellow-400 mb-4" size={32} />
-                 <p className="text-yellow-400">Carregando avaliações...</p>
-            </section>
-        );
-    }
+    // if (isLoading) {
+    //     return (
+    //         <section className="w-screen m-auto py-20 bg-black flex flex-col items-center justify-center">
+    //              <Loader2 className="animate-spin inline-block text-yellow-400 mb-4" size={32} />
+    //              <p className="text-yellow-400">Carregando avaliações...</p>
+    //         </section>
+    //     );
+    // }
     
     // Se houver erro
-    if (error) {
-         return (
-            <section className="w-screen m-auto py-20 bg-black flex flex-col items-center justify-center">
-                 <p className="p-4 bg-red-600/20 text-red-300 border border-red-500 rounded-lg text-center">{error}</p>
-                 <div className='mt-6'><Link to="/formAvaliation" className='bg-transparent border border-amber-200 flex items-center justify-center h-[60px] text-[15px] text-amber-200 font-light hover:bg-amber-200/90 hover:text-amber-950 transition duration-200 px-6'>Fazer Avaliação</Link></div>
-            </section>
-        );
-    }
+    // if (error) {
+    //      return (
+    //         <section className="w-screen m-auto py-20 bg-black flex flex-col items-center justify-center">
+    //              <p className="p-4 bg-red-600/20 text-red-300 border border-red-500 rounded-lg text-center">{error}</p>
+    //              <div className='mt-6'><Link to="/formAvaliation" className='bg-transparent border border-amber-200 flex items-center justify-center h-[60px] text-[15px] text-amber-200 font-light hover:bg-amber-200/90 hover:text-amber-950 transition duration-200 px-6'>Fazer Avaliação</Link></div>
+    //         </section>
+    //     );
+    // }
+
+    // const avaliacoes = {
+        
+    // }
 
 
     return ( 
@@ -261,7 +265,7 @@ function Avaliation() {
                 )}
                 
             </Swiper>
-            <Link to="/formAvaliation" className='hidden'></Link>
+            <div className='w-screen flex justify-center items-center'><Link to="/formAvaliation" className='bg-transparent border border-amber-200 flex items-center justify-center h-[60px] text-[15px] text-amber-200 font-light hover:bg-amber-200/90 hover:text-amber-950 transition duration-200 px-6 mt-6'>Fazer Avaliação</Link></div>
         </section>
     );
 }
